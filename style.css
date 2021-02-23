@@ -98,3 +98,11 @@ img {
 .icon {
   max-width: 25px;
 }
+.resume {
+  text-align: center;
+  color: #b0e9e9;
+}
+.resume a {
+  color: #8d8d8d;
+  background-color: #dff9a9;
+}
