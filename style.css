@@ -1,4 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000033;
+}
+
 header {
+  background-color: #002171;
+  color: #fff;
+  text-align: center;
 }
 nav {
   text-align: center;
@@ -6,6 +16,7 @@ nav {
   font-weight: bold;
   font-size: 120%;
   padding: 0;
+  background-color: #344873;
 }
 nav ul {
   list-style-type: none;
