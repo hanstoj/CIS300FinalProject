@@ -25,7 +25,7 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  transition: all 3s ease-out;
+  transition: all 1s ease-out;
 }
 nav a:link {
   color: #a5afa4;
@@ -46,9 +46,16 @@ p {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+h1 {
+  color: #a5afa4;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 footer {
   color: wheat;
+}
+iframe {
+  border-radius: 5%;
 }
 .center {
   height: 10em;
@@ -57,17 +64,19 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.school-img {
+.home {
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-.school-text {
-}
+
 .title {
   text-align: center;
 }
-.proj-into {
-}
-.project {
-}
+
 .split {
   display: flex;
 }
@@ -95,9 +104,21 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.icon {
-  max-width: 25px;
+.icon-cont-proj {
+  margin-top: 5px;
+  margin-left: 30%;
+  margin-right: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.icon {
+  max-width: 20px;
+}
+/* .icon-cont-proj .icon {
+  max-width: 40px;
+} */
+
 .resume {
   text-align: center;
   color: #b0e9e9;
@@ -105,4 +126,20 @@ img {
 .resume a {
   color: #8d8d8d;
   background-color: #dff9a9;
+}
+#hiGuy {
+  max-width: 80px;
+  align-self: center;
+}
+.door {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+span {
+  font-weight: 500;
+  font-size: larger;
 }
