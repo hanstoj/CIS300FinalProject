@@ -142,9 +142,8 @@ span {
 }
 form {
   column-count: 2;
-  grid-gap: 1em;
   gap: 1em;
-  background-color: #eaeaea;
+  background-color: #b0e9e9;
   font-family: Arial, sans-serif;
   width: 60%;
   min-width: 20em;
