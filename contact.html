@@ -22,24 +22,33 @@
     </nav>
 
     <form method="POST" action="https://webdevbasics.net/scripts/pacific.php">
-        <div class='col1'>
+        <div>
+            <div>
             <label for="name">Name *</label><br>
             <input type="text" id="name" name="name" required>
+            </div>
 
+            <div>
             <label for="company">Company</label><br>
             <input type="text" id="company" name="company" required>
+            </div>
 
+            <div>
             <label for="email">Email Address *</label><br>
             <input type="email" id="email" name="email" required>
+            </div>
 
+            <div>
             <label for="phone">Phone Number</label><br>
             <input type="tel" id="phone" name="phone" maxlength="12" >
-        </div>
+            </div>
 
-        <div class='col1'>
-        <label for="message">Message</label> <textarea id="message" name="message" cols="30" rows="2"></textarea>
-
-        <input type="submit" value="Submit" name="submitButton" id= "submitButton">
+            <div class='col2'>
+            <label for="message">Message</label> <br>
+            <textarea id="message" name="message" cols="30" rows="2"></textarea>
+            <br>
+            <input type="submit" value="Submit" name="submitButton" id= "submitButton">
+            </div>
         </div>
 
 
