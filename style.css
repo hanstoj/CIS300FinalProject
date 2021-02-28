@@ -34,12 +34,9 @@ nav a:visited {
   color: #a5afa4;
 }
 nav a:hover {
-  color: #a52a2a;
+  color: #2aa570;
 }
 
-nav li {
-  border-bottom: 1px solid #000033;
-}
 p {
   color: #a5afa4;
   text-align: center;
@@ -142,4 +139,17 @@ img {
 span {
   font-weight: 500;
   font-size: larger;
+}
+form {
+  column-count: 2;
+  grid-gap: 1em;
+  gap: 1em;
+  background-color: #eaeaea;
+  font-family: Arial, sans-serif;
+  width: 60%;
+  min-width: 20em;
+  padding: 2em;
+}
+label {
+  text-align: center;
 }
